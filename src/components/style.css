@@ -139,7 +139,7 @@ ul {
 /* Container */
 .hero {
  text-align: center;
- background: linear-gradient(to top, rgba(4, 12, 24), rgba(4, 12, 24, 0.2)), url("header_image.png");
+ background: linear-gradient(to top, rgba(4, 12, 24), rgba(4, 12, 24, 0.2)), url("../../assets/header_image.png");
  background-repeat: no-repeat;
  background-position: center;
  background-size: cover;
