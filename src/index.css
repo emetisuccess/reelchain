@@ -12,6 +12,14 @@
  --color_blog: #042c54;
 }
 
+@layer base {
+ ul,
+ ol,
+ li {
+  list-style: revert;
+ }
+}
+
 * {
  margin: 0;
  padding: 0;
@@ -25,7 +33,7 @@ body {
  background-color: var(--color_bg);
 }
 
-.hero_section {
+/* .hero_section {
  position: relative;
  overflow: hidden;
  width: 100%;
@@ -37,7 +45,7 @@ body {
  z-index: 599;
 } */
 
-.hero_section .hero_bg {
+/* .hero_section .hero_bg {
  position: absolute;
  top: 350px;
  bottom: 0;
@@ -50,4 +58,4 @@ body {
  width: 90%;
  height: 100%;
  z-index: -1;
-}
+}  */

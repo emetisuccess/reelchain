@@ -32,7 +32,7 @@ const FAQ = () => {
                     </div>
                     <div className='qa'>
                         <input type="checkbox" id="collapsible-head-4" />
-                        <label htmlFor="collapsible-head-4">What chain do txn support?</label>
+                        <label htmlFor="collapsible-head-4">What chain do ReelChain support?</label>
                         <div className="collapsible-text-4">
                             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit odit similique doloremque
                                 ab unde. Placeat recusandae nobis voluptate atque, fugit itaque nam quos.</p>
@@ -40,7 +40,7 @@ const FAQ = () => {
                     </div>
                     <div className='qa'>
                         <input type="checkbox" id="collapsible-head-5" />
-                        <label htmlFor="collapsible-head-5">What OS is TN compatible with?</label>
+                        <label htmlFor="collapsible-head-5">What OS is ReelChain compatible with?</label>
                         <div className="collapsible-text-5">
                             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit odit similique doloremque
                                 ab unde. Placeat recusandae nobis voluptate atque, fugit itaque nam quos.</p>
@@ -48,7 +48,7 @@ const FAQ = () => {
                     </div>
                     <div className='qa'>
                         <input type="checkbox" id="collapsible-head-6" />
-                        <label htmlFor="collapsible-head-6">Is TXN safe to use?</label>
+                        <label htmlFor="collapsible-head-6">Is ReelChain safe to use?</label>
                         <div className="collapsible-text-6">
                             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit odit similique doloremque
                                 ab unde. Placeat recusandae nobis voluptate atque, fugit itaque nam quos.</p>

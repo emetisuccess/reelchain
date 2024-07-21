@@ -9,7 +9,7 @@ const Mint = () => {
       <div className="doc_bg text-center -mt-44 mb-44">
         <h1 className="text-6xl text-white font-bold">Mint</h1>
       </div>
-      <div className="home lg:w-3/5 md:w-3/5  sm:w-4/5">
+      <div className="home lg:w-3/5 md:w-3/5  sm:w-4/5 mb-16">
         <div className="home-header">
           <h2 className="text-white mt-8 text-6xl mb-8 font-bold">About ReelChain Mint</h2>
           <p className="text-white text-3xl mt-3 mb-5">

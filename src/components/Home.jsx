@@ -2,6 +2,7 @@ import './style.css'
 import Container from './Container'
 import Section from './Section'
 import Testimonials from './Testimonials'
+import Footer from './Footer'
 import FAQ from './FAQ'
 
 const Home = () => {
@@ -13,6 +14,7 @@ const Home = () => {
         <Testimonials />
         <FAQ />
       </div>
+      <Footer />
     </div>
   )
 }
