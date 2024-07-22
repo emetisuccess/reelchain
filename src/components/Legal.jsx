@@ -33,13 +33,13 @@ const Legal = () => {
         <div className="flex justify-between mb-16  gap-3">
           <Link to="/technical-architecture" className="mt-16 mb-16 flex grow items-center justify-between py-1 px-8 border border-white-200">
             <div>
-              <p className="text-lg text-white ">Technical Architecture</p>
+              <p className="lg:text-lg md:text-lg text-sm sm:text-sm xs:text-sm text-white ">Technical Architecture</p>
             </div>
             <FaAngleLeft />
           </Link>
           <Link to="/conclusion" className="mt-16 mb-16 flex grow items-center justify-between py-1 px-8 border border-white-200">
             <div>
-              <p className="text-lg text-white ">Conclusion</p>
+              <p className=" lg:text-lg md:text-lg text-sm sm:text-sm text-white ">Conclusion</p>
             </div>
             <FaAngleRight />
           </Link>
