@@ -30,35 +30,17 @@ const Problem = () => {
               </li>
             </ul>
           </ul>
-          <h3 className="text-white mt-8 text-3xl font-bold">Key Features</h3>
-          <ul className="list-inside list-disc hover:list-circle">
-            <li className="text-white text-base">
-              Decentralized Content Hosting: Using IPFS and Arweave to store and distribute content.
-            </li>
-            <li className="text-white text-base">
-              Blockchain-Based Payments: Smart contracts automate payments and ensure transparent revenue sharing.
-            </li>
-            <li className="text-white text-base">
-              NFTs for Collectibles: NFTs provide access to exclusive content and can serve as digital collectibles.
-            </li>
-            <li className="text-white text-base">
-              Community Governance: A DAO allows users and creators to participate in decision-making processes.
-            </li>
-          </ul>
         </div>
         <div className="flex justify-between mb-16  gap-3">
           <Link to="/doc" className="mt-16 flex grow items-center justify-between py-1 px-8 border border-white-200">
             <div>
-              <p className="text-xl text-white">Previous</p>
               <p className="text-lg text-white ">Introduction</p>
             </div>
             <FaAngleLeft />
           </Link>
-
-          <Link to="/tokenomics" className="mt-16 flex grow  items-center justify-between py-1 px-8 border border-white-200">
+          <Link to="/key-features" className="mt-16 flex grow  items-center justify-between py-1 px-8 border border-white-200">
             <div>
-              <p className="text-xl text-white">Next</p>
-              <p className="text-lg text-white ">Tokenomics</p>
+              <p className="text-lg text-white ">Key Features</p>
             </div>
             <FaAngleRight />
           </Link>

@@ -1,5 +1,5 @@
 import wavy from "../../assets/wavy.mp4";
-import { FaAngleLeft } from 'react-icons/fa'
+import { FaAngleLeft, FaAngleRight } from 'react-icons/fa'
 import { Link } from 'react-router-dom'
 
 const Legal = () => {
@@ -30,23 +30,21 @@ const Legal = () => {
           </ul>
         </div>
 
-        <div className="get_in_touch">
-          <h2 className="text-white mt-4 text-3xl font-bold">Conclusion</h2>
-          <p className="text-white text-lg">
-            ReelChain aims to revolutionize the movie streaming industry by providing a decentralized, transparent, and fair platform
-            for creators and viewers. By leveraging blockchain technology, ReelChain ensures that viewers enjoy unrestricted access to
-            diverse films, and every transaction is transparent and fair.
-          </p>
+        <div className="flex justify-between mb-16  gap-3">
+          <Link to="/technical-architecture" className="mt-16 mb-16 flex grow items-center justify-between py-1 px-8 border border-white-200">
+            <div>
+              <p className="text-lg text-white ">Technical Architecture</p>
+            </div>
+            <FaAngleLeft />
+          </Link>
+          <Link to="/conclusion" className="mt-16 mb-16 flex grow items-center justify-between py-1 px-8 border border-white-200">
+            <div>
+              <p className="text-lg text-white ">Conclusion</p>
+            </div>
+            <FaAngleRight />
+          </Link>
         </div>
-        <Link to="/technical-architecture" className="mt-16 mb-16 flex items-center justify-between py-1 px-8 border border-white-200">
-          <div>
-            <p className="text-xl text-white">Previous</p>
-            <p className="text-lg text-white ">Technical Architecture</p>
-          </div>
-          <FaAngleLeft className="text-white" style={{ color: 'white' }} />
-        </Link>
       </div>
-
     </div>
   )
 }

@@ -33,7 +33,7 @@ const Tokenomics = () => {
             <li className="text-white text-base">Token holders participate in the DAO, voting on key decisions and proposals.</li>
           </ul>
         </div>
-        <div className="bg-white my-8">
+        <div className="my-8">
           <PieChart
             series={[
               {
@@ -61,17 +61,15 @@ const Tokenomics = () => {
           <p className="text-white text-lg">Reserve-10%</p>
         </div>
         <div className="flex justify-between mb-16 gap-3">
-          <Link to="/problem-statement" className="mt-16 flex grow items-center justify-between py-1 px-8 border border-white-200">
+          <Link to="/key-features" className="mt-16 flex grow items-center justify-between py-1 px-8 border border-white-200">
             <div>
-              <p className="text-xl text-white">Previous</p>
-              <p className="text-lg text-white ">Problem Statement</p>
+              <p className="text-lg text-white ">Key Features</p>
             </div>
             <FaAngleLeft />
           </Link>
 
           <Link to="/use-case" className="mt-16 flex grow  items-center justify-between py-1 px-8 border border-white-200">
             <div>
-              <p className="text-xl text-white">Next</p>
               <p className="text-lg text-white ">Use Case</p>
             </div>
             <FaAngleRight />

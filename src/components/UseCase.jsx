@@ -21,39 +21,17 @@ const UseCase = () => {
             <li className="text-white text-base">Rewards: Earn tokens for engagement and participation.</li>
           </ul>
         </div>
-
-        <div className="mission">
-          <h2 className="text-white mt-4 text-3xl font-bold">Roadmap</h2>
-          <h2 className="text-white mt-4 text-xl font-bold">Development Phases</h2>
-
-          <ul className="list-inside list-desc hover:list-circle">
-            <li className="text-white text-base">Phase 1: Platform design and MVP development (Q3 2024) </li>
-            <li className="text-white text-base">Phase 2: Beta launch with initial content partners and TGE (Q4 2024)</li>
-            <li className="text-white text-base">Phase 3: Full launch with community features and governance (Q1 2025)</li>
-            <li className="text-white text-base"> Phase 4: Expansion and strategic partnerships (Q2 2025)</li>
-          </ul>
-
-          <h2 className="text-white mt-4 text-xl font-bold">Timeline</h2>
-          <ul className="list-inside list-desc hover:list-circle">
-            <li className="text-white text-base">Q3 2024: Complete MVP development.</li>
-            <li className="text-white text-base">Q4 2024: Launch beta version with early adopters, TGE.</li>
-            <li className="text-white text-base">Q1 2025: Full platform launch.</li>
-            <li className="text-white text-base">Q1 2025: Expand platform and onboard more content creators and viewers.</li>
-          </ul>
-        </div>
         <div className="flex justify-between mb-16  gap-3">
           <Link to="/tokenomics" className="mt-16 flex grow items-center justify-between py-1 px-8 border border-white-200">
             <div>
-              <p className="text-xl text-white">Previous</p>
               <p className="text-lg text-white ">Tokenomics</p>
             </div>
             <FaAngleLeft />
           </Link>
 
-          <Link to="/technical-architecture" className="mt-16 flex grow  items-center justify-between py-1 px-8 border border-white-200">
+          <Link to="/road-map" className="mt-16 flex grow  items-center justify-between py-1 px-8 border border-white-200">
             <div>
-              <p className="text-xl text-white">Next</p>
-              <p className="text-lg text-white ">Technical Architecture</p>
+              <p className="text-lg text-white ">Road Map</p>
             </div>
             <FaAngleRight />
           </Link>

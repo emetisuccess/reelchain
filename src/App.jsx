@@ -12,9 +12,9 @@ import Technical from './components/Technical';
 import Tokenomics from './components/Tokenomics';
 import UseCase from './components/UseCase';
 import './components/style.css'
-
-
-
+import Roadmap from './components/Roadmap';
+import KeyFeatures from './components/KeyFeatures';
+import Conclusion from './components/Conclusion';
 
 
 
@@ -29,10 +29,13 @@ const App = () => {
         <Route path='/waitlist' element={<Waitlist />} />
         <Route path='/doc' element={<Doc />} />
         <Route path='/legal' element={<Legal />} />
+        <Route path='/conclusion' element={<Conclusion />} />
         <Route path='/problem-statement' element={<Problem />} />
+        <Route path='/key-features' element={<KeyFeatures />} />
         <Route path='/technical-architecture' element={<Technical />} />
         <Route path='/tokenomics' element={<Tokenomics />} />
         <Route path='/use-case' element={<UseCase />} />
+        <Route path='/road-map' element={<Roadmap />} />
         <Route path='/contact' element={<Contact />} />
       </Routes>
     </BrowserRouter>

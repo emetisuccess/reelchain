@@ -7,11 +7,11 @@ const Mint = () => {
         <source src={wavy} type="video/mp4" />
       </video>
       <div className="doc_bg text-center -mt-44 mb-44">
-        <h1 className="text-6xl text-white font-bold">Mint</h1>
+        <h1 className="text-6xl text-white font-bold">ReelChain Passport</h1>
       </div>
       <div className="home lg:w-3/5 md:w-3/5  sm:w-4/5 mb-16">
         <div className="home-header">
-          <h2 className="text-white mt-8 text-6xl mb-8 font-bold">About ReelChain Mint</h2>
+          <h2 className="text-white mt-8 text-6xl mb-8 font-bold">ReelChain Genesis Passport</h2>
           <p className="text-white text-3xl mt-3 mb-5">
             Join our community as a distinguish citizen and immerse yourself in a world where creativity thrives and connections flourish. Your journey begins by minting your unique passport, granting you access to exclusive experiences and places among fellow ReelChainers
           </p>

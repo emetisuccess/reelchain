@@ -61,17 +61,15 @@ const Technical = () => {
           </ul>
         </div>
         <div className="flex justify-between mb-16  gap-3">
-          <Link to="/use-case" className="mt-16 flex grow items-center justify-between py-1 px-8 border border-white-200">
+          <Link to="/road-map" className="mt-16 flex grow items-center justify-between py-1 px-8 border border-white-200">
             <div>
-              <p className="text-xl text-white">Previous</p>
-              <p className="text-lg text-white ">Use Case</p>
+              <p className="text-lg text-white ">Road Map</p>
             </div>
             <FaAngleLeft />
           </Link>
 
           <Link to="/legal" className="mt-16 flex grow  items-center justify-between py-1 px-8 border border-white-200">
             <div>
-              <p className="text-xl text-white">Next</p>
               <p className="text-lg text-white ">Legal and Compliance</p>
             </div>
             <FaAngleRight />
