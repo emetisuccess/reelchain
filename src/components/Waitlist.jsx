@@ -2,6 +2,7 @@ import { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import { BsTwitterX } from "react-icons/bs";
 import { FaDiscord } from "react-icons/fa";
+import landscape from "../../assets/landscape.jpg";
 
 const Waitlist = () => {
   const form = useRef();
@@ -31,7 +32,7 @@ const Waitlist = () => {
     <div className="lg:container md:container md:mx-auto flex flex-column justify-center items-center my-44">
       <div className="relative w-9/12 lg:w-3/5 md:w-3/5 sm:w-4/5 flex flex-col mt-6 text-gray-700 bg-white shadow-md bg-clip-border rounded-xl w-96">
         <div className="relative w-full h-56 overflow-hidden text-white shadow-lg bg-clip-border rounded-xl bg-blue-gray-500 shadow-blue-gray-500/40">
-          <img src="landscape.jpg" id="myVideo" className="myVideoBg" />
+          <img src={landscape} id="myVideo" className="myVideoBg" />
           <div className="doc_bg relative text-center -mt-44 mb-44">
             <h1 className="md:text-5xl sm:text-4xl text-3xl text-red-600 font-bold">Waitlist</h1>
           </div>

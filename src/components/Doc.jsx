@@ -1,5 +1,6 @@
 import wavy from "../../assets/wavy.mp4";
 import { FaAngleRight } from 'react-icons/fa'
+import { Link } from 'react-router-dom';
 
 const Doc = () => {
   return (
@@ -40,13 +41,13 @@ const Doc = () => {
             based payments, NFTs and community governance to create a transparent,secure and community driven movie streaming experience.
           </p>
         </div>
-        <a href="/problem-statement" className="my-16  flex items-center justify-between py-1 px-8 border border-white-200">
+        <Link to="/problem-statement" className="my-16  flex items-center justify-between py-1 px-8 border border-white-200">
           <div>
             <p className="text-xl text-white">Next</p>
             <p className="text-lg text-white ">Problem Statement</p>
           </div>
           <FaAngleRight className="text-white" style={{ color: 'white' }} />
-        </a>
+        </Link>
       </div>
     </div>
   );
