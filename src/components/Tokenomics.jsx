@@ -1,6 +1,7 @@
 import wavy from "../../assets/wavy.mp4";
 import { PieChart } from "@mui/x-charts/PieChart";
 import { FaAngleRight, FaAngleLeft } from 'react-icons/fa'
+import { Link } from 'react-router-dom';
 
 const Tokenomics = () => {
   return (
@@ -60,21 +61,21 @@ const Tokenomics = () => {
           <p className="text-white text-lg">Reserve-10%</p>
         </div>
         <div className="flex justify-between mb-16 gap-3">
-          <a href="/problem-statement" className="mt-16 flex grow items-center justify-between py-1 px-8 border border-white-200">
+          <Link to="/problem-statement" className="mt-16 flex grow items-center justify-between py-1 px-8 border border-white-200">
             <div>
               <p className="text-xl text-white">Previous</p>
               <p className="text-lg text-white ">Problem Statement</p>
             </div>
             <FaAngleLeft />
-          </a>
+          </Link>
 
-          <a href="/use-case" className="mt-16 flex grow  items-center justify-between py-1 px-8 border border-white-200">
+          <Link to="/use-case" className="mt-16 flex grow  items-center justify-between py-1 px-8 border border-white-200">
             <div>
               <p className="text-xl text-white">Next</p>
               <p className="text-lg text-white ">Use Case</p>
             </div>
             <FaAngleRight />
-          </a>
+          </Link>
         </div>
       </div>
     </div>

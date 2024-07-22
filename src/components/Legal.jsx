@@ -1,5 +1,6 @@
 import wavy from "../../assets/wavy.mp4";
 import { FaAngleLeft } from 'react-icons/fa'
+import { Link } from 'react-router-dom'
 
 const Legal = () => {
   return (
@@ -37,13 +38,13 @@ const Legal = () => {
             diverse films, and every transaction is transparent and fair.
           </p>
         </div>
-        <a href="/technical-architecture" className="mt-16 mb-16 flex items-center justify-between py-1 px-8 border border-white-200">
+        <Link to="/technical-architecture" className="mt-16 mb-16 flex items-center justify-between py-1 px-8 border border-white-200">
           <div>
             <p className="text-xl text-white">Previous</p>
             <p className="text-lg text-white ">Technical Architecture</p>
           </div>
           <FaAngleLeft className="text-white" style={{ color: 'white' }} />
-        </a>
+        </Link>
       </div>
 
     </div>
