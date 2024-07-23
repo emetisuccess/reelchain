@@ -1,4 +1,4 @@
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import wavy from "../../assets/wavy.mp4";
 import { FaAngleRight, FaAngleLeft } from 'react-icons/fa';
 
@@ -61,19 +61,19 @@ const Technical = () => {
           </ul>
         </div>
         <div className="flex justify-between mb-16  gap-3">
-          <a href="/road-map" className="mt-16 flex grow items-center justify-between py-1 px-8 border border-white-200">
+          <Link to="/road-map" className="mt-16 flex grow items-center justify-between py-1 px-8 border border-white-200">
             <div>
               <p className="text-lg text-white ">Road Map</p>
             </div>
             <FaAngleLeft />
-          </a>
+          </Link>
 
-          <a href="/legal" className="mt-16 flex grow  items-center justify-between py-1 px-8 border border-white-200">
+          <Link to="/legal" className="mt-16 flex grow  items-center justify-between py-1 px-8 border border-white-200">
             <div>
               <p className="text-lg text-white ">Legal and Compliance</p>
             </div>
             <FaAngleRight />
-          </a>
+          </Link>
         </div>
       </div>
     </div>

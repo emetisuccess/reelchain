@@ -1,6 +1,6 @@
 import wavy from "../../assets/wavy.mp4";
 import { FaAngleRight, FaAngleLeft } from 'react-icons/fa';
-// import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 const KeyFeatures = () => {
   return (
@@ -30,18 +30,18 @@ const KeyFeatures = () => {
           </ul>
         </div>
         <div className="flex justify-between mb-16  gap-3">
-          <a href="/problem-statement" className="mt-16 flex grow items-center justify-between py-1 px-8 border border-white-200">
+          <Link to="/problem-statement" className="mt-16 flex grow items-center justify-between py-1 px-8 border border-white-200">
             <div>
               <p className="text-lg text-white ">Problem Statement</p>
             </div>
             <FaAngleLeft />
-          </a>
-          <a href="/tokenomics" className="mt-16 flex grow  items-center justify-between py-1 px-8 border border-white-200">
+          </Link>
+          <Link to="/tokenomics" className="mt-16 flex grow  items-center justify-between py-1 px-8 border border-white-200">
             <div>
               <p className="text-lg text-white ">Tokenomics</p>
             </div>
             <FaAngleRight />
-          </a>
+          </Link>
         </div>
       </div>
 

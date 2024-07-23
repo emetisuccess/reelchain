@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [showNav, setShowNav] = useState(false);
@@ -21,38 +21,38 @@ const Navbar = () => {
     <div className="navbar rounded-3xl">
       <div onClick={handleClick} className={`${showNav ? "hamburger1" : "hamburger"}`}></div>
       <div className="logo">
-        <a href="/">
+        <Link to="/">
           <img src="logo1.png" alt="Logo" />
-        </a>
+        </Link>
         <nav className="menu">
           <ul className="inner-nav list-none">
             <li>
-              <a href="/" className="text-2xl">
+              <Link to="/" className="text-2xl">
                 Home
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="/mint" className="text-2xl">
+              <Link to="/mint" className="text-2xl">
                 Mint
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="/waitlist" className="text-2xl">
+              <Link to="/waitlist" className="text-2xl">
                 Waitlist
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="/doc" className="text-2xl">
+              <Link to="/doc" className="text-2xl">
                 Doc
-              </a>
+              </Link>
             </li>
           </ul>
         </nav>
       </div>
       <div className="button">
-        <a href="/contact" className="text-lg">
+        <Link to="/contact" className="text-lg">
           Contact Us
-        </a>
+        </Link>
       </div>
     </div>
   );
