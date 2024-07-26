@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Footer = () => {
   return (
     <div className="footer">
@@ -10,7 +12,7 @@ const Footer = () => {
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis quaerat in error, pariatur optio dolorum corporis
             dolore maiores suscipit. Quam.
           </p>
-          <a href="/">Get Started</a>
+          <Link to="/waitlist" className="font-bold text-2xl">Join Waitlist</Link>
         </div>
       </div>
       <hr className="my-16" />

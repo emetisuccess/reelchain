@@ -1,22 +1,20 @@
-import './style.css'
-import Container from './Container'
-import Section from './Section'
-import Testimonials from './Testimonials'
-import Footer from './Footer'
-import FAQ from './FAQ'
+import "./style.css";
+import Container from "./Container";
+import Section from "./Section";
+import Footer from "./Footer";
+import FAQ from "./FAQ";
 
 const Home = () => {
-  return (
-    <div>
-      <Container />
-      <div className='home'>
-        <Section />
-        <Testimonials />
-        <FAQ />
-      </div>
-      <Footer />
-    </div>
-  )
-}
+ return (
+  <div>
+   <Container />
+   <div className="home">
+    <Section />
+    <FAQ />
+   </div>
+   <Footer />
+  </div>
+ );
+};
 
-export default Home
+export default Home;
