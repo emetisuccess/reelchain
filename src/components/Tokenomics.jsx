@@ -35,6 +35,24 @@ const Tokenomics = () => {
               <li className="text-white text-lg">Reserve-10%</li>
             </ul>
           </div>
+          <div className="my-8">
+            <PieChart
+              series={[
+                {
+                  data: [
+                    { id: 0, value: 15, label: "F&T" },
+                    { id: 1, value: 5, label: "Advisors" },
+                    { id: 2, value: 20, label: "DF" },
+                    { id: 3, value: 20, label: "M&P" },
+                    { id: 4, value: 30, label: "CR" },
+                    { id: 5, value: 10, label: "Reserve" },
+                  ],
+                },
+              ]}
+              width={400}
+              height={200}
+            />
+          </div>
 
           <h2 className="text-white mt-4 text-xl font-bold">Token Utility</h2>
           <ul className="list-inside list-desc hover:list-circle">
@@ -53,24 +71,6 @@ const Tokenomics = () => {
           <ul className="list-inside list-desc hover:list-circle">
             <li className="text-white text-base">Token holders participate in the DAO, voting on key decisions and proposals.</li>
           </ul>
-        </div>
-        <div className="my-8">
-          <PieChart
-            series={[
-              {
-                data: [
-                  { id: 0, value: 15, label: "F&T" },
-                  { id: 1, value: 5, label: "Advisors" },
-                  { id: 2, value: 20, label: "DF" },
-                  { id: 3, value: 20, label: "M&P" },
-                  { id: 4, value: 30, label: "CR" },
-                  { id: 5, value: 10, label: "Reserve" },
-                ],
-              },
-            ]}
-            width={400}
-            height={200}
-          />
         </div>
 
         <div className="flex justify-between mb-16 gap-3">
