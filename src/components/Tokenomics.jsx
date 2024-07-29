@@ -1,9 +1,36 @@
+import { useState } from "react";
 import wavy from "../../assets/wavy.mp4";
+import FormControlLabel from '@mui/material/FormControlLabel';
+import Stack from '@mui/material/Stack';
 import { PieChart } from "@mui/x-charts/PieChart";
+import Checkbox from '@mui/material/Checkbox';
 import { FaAngleRight, FaAngleLeft } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
+
+
+const colors = ['#006BD6', '#EC407A'];
+const series = [
+  {
+    data: [
+      { id: 0, value: 15, label: "F&T" },
+      { id: 1, value: 5, label: "Advisors" },
+      { id: 2, value: 20, label: "DF" },
+      { id: 3, value: 20, label: "M&P" },
+      { id: 4, value: 30, label: "CR" },
+      { id: 5, value: 10, label: "Reserve" },
+    ],
+  },
+]
+
+
+
+
+
+
+
 const Tokenomics = () => {
+  // const [isHidden, setIsHidden] = useState(false);
   return (
     <div className="lg:container md:container md:mx-auto mb-16">
       <video autoPlay muted loop id="myVideo" className="myVideoBg mt-8">
@@ -36,22 +63,15 @@ const Tokenomics = () => {
             </ul>
           </div>
           <div className="my-8">
-            <PieChart
-              series={[
-                {
-                  data: [
-                    { id: 0, value: 15, label: "F&T" },
-                    { id: 1, value: 5, label: "Advisors" },
-                    { id: 2, value: 20, label: "DF" },
-                    { id: 3, value: 20, label: "M&P" },
-                    { id: 4, value: 30, label: "CR" },
-                    { id: 5, value: 10, label: "Reserve" },
-                  ],
-                },
-              ]}
-              width={400}
-              height={200}
-            />
+            <Stack>
+              <PieChart
+                series={series}
+                slotProps={{ legend: { hidden: true } }}
+                colors={colors}
+                width={500}
+                height={400}
+              />
+            </Stack>
           </div>
 
           <h2 className="text-white mt-4 text-xl font-bold">Token Utility</h2>
