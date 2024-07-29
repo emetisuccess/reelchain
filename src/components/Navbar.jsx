@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   const [showNav, setShowNav] = useState(false);
 
+
   useEffect(() => {
 
     const innernav = document.querySelector(".inner-nav");
@@ -19,7 +20,7 @@ const Navbar = () => {
     setShowNav(!showNav);
   };
 
-  document.body.click(() => {
+  document.addEventListener('mousedown', () => {
     setShowNav(!showNav);
   });
 
