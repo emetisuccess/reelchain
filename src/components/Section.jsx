@@ -3,10 +3,9 @@ const Section = () => {
     <div className="section">
       <div className="inner-section">
         <div className="section-text py-16">
-          <h5 className="font-bold text-3xl">VIewers</h5>
-          <p>
-            Experience the next evolution in entertainment! ReelChain combines blockchain technology with seamless streaming, allowing
-            you to watch and earn $REEL tokens. Enjoy exclusive contents, secure your data, and participate in community governance.
+          <h5 className="font-bold text-3xl mb-4">For Viewers....</h5>
+          <p className="">
+            Experience the next evolution in entertainment! ReelChain combines blockchain technology with seamless streaming, allowing you to watch and earn $REEL tokens. Enjoy exclusive contents, secure your data, and participate in community governance.
           </p>
           <div className="button">
             <a href="/">Explore Now</a>
@@ -20,7 +19,7 @@ const Section = () => {
             <span className="text-3xl">&#x1F3A5;</span>
             <h1 className="font-bold">Stream-to-Earn</h1>
             <p>
-              Earn REEL tokens simply by watching your favorite movies, series, and documentaries. Your time and engagement are valuable,
+              Earn $REEL tokens simply by watching your favorite movies, series, and documentaries. Your time and engagement are valuable,
               and we reward you for it!
             </p>
           </div>
