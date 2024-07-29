@@ -4,7 +4,7 @@ const Section = () => {
       <div className="inner-section">
         <div className="section-text py-16">
           <h5 className="font-bold text-3xl mb-4">For Viewers....</h5>
-          <p className="">
+          <p className="xs:w-full">
             Experience the next evolution in entertainment! ReelChain combines blockchain technology with seamless streaming, allowing you to watch and earn $REEL tokens. Enjoy exclusive contents, secure your data, and participate in community governance.
           </p>
           <div className="button">
