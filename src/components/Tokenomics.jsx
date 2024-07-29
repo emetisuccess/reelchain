@@ -68,8 +68,8 @@ const Tokenomics = () => {
                 series={series}
                 slotProps={{ legend: { hidden: true } }}
                 colors={colors}
-                width={450}
-                height={400}
+                width={400}
+                height={350}
               />
             </Stack>
           </div>
