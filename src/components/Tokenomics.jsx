@@ -66,10 +66,10 @@ const Tokenomics = () => {
             <Stack>
               <PieChart
                 series={series}
-                slotProps={{ legend: { hidden: true } }}
+                slotProps={{ legend: { hidden: false } }}
                 colors={colors}
-                width={400}
-                height={350}
+                width={385}
+                height={250}
               />
             </Stack>
           </div>
