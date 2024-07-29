@@ -674,6 +674,17 @@ ul {
  color: #fff;
 }
 
+.mintbg {
+ background-image: url("/assets/reelchain_p.jpeg");
+ background-position: center;
+ background-size: cover;
+ background-repeat: no-repeat;
+ background-origin: border-box;
+ background-blend-mode: multiply;
+ width: 100%;
+ height: 47vh;
+}
+
 .myVideoBg {
  height: 40vh;
  object-fit: cover;
