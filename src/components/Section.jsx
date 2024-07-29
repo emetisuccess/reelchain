@@ -1,7 +1,3 @@
-import globe from "../../assets/globe.png";
-import two from "../../assets/2.png";
-import three from "../../assets/3.png";
-
 const Section = () => {
   return (
     <div className="section">
