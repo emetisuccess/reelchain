@@ -5,9 +5,7 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   const [showNav, setShowNav] = useState(false);
 
-
   useEffect(() => {
-
     const innernav = document.querySelector(".inner-nav");
     if (showNav === true) {
       innernav.style.left = "0px";
@@ -20,9 +18,11 @@ const Navbar = () => {
     setShowNav(!showNav);
   };
 
-  document.addEventListener('mousedown', () => {
+  const handleToggle = () => {
     setShowNav(!showNav);
-  });
+  }
+
+
 
   return (
     <div className="navbar rounded-3xl">
@@ -32,7 +32,7 @@ const Navbar = () => {
           <img src={logo1} alt="Logo" />
         </Link>
         <nav className="menu">
-          <ul className="inner-nav list-none">
+          <ul className="inner-nav list-none" onClick={handleToggle}>
             <li>
               <Link to="/" className="text-2xl">
                 Home
