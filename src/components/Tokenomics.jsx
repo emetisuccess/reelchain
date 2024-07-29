@@ -1,9 +1,9 @@
-import { useState } from "react";
+// import { useState } from "react";
 import wavy from "../../assets/wavy.mp4";
-import FormControlLabel from '@mui/material/FormControlLabel';
+// import FormControlLabel from '@mui/material/FormControlLabel';
 import Stack from '@mui/material/Stack';
 import { PieChart } from "@mui/x-charts/PieChart";
-import Checkbox from '@mui/material/Checkbox';
+// import Checkbox from '@mui/material/Checkbox';
 import { FaAngleRight, FaAngleLeft } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
@@ -68,7 +68,7 @@ const Tokenomics = () => {
                 series={series}
                 slotProps={{ legend: { hidden: true } }}
                 colors={colors}
-                width={500}
+                width={450}
                 height={400}
               />
             </Stack>
