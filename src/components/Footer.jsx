@@ -5,12 +5,11 @@ const Footer = () => {
     <div className="footer">
       <div className="bulb mb-8">
         <div className="pic">
-          <h1 className="text-white">Knowledge Grow Your Influence</h1>
+          <h1 className="text-white">Begin your Web3 Entertainment Journey with ReelChain</h1>
         </div>
         <div className="footer-text">
           <p className="text-white">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis quaerat in error, pariatur optio dolorum corporis
-            dolore maiores suscipit. Quam.
+            Built on Polygon,the ReelChain ecosystem is designed to be sustainable as we scale.
           </p>
           <Link to="/waitlist" className="font-bold text-2xl">Join Waitlist</Link>
         </div>

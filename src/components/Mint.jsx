@@ -20,7 +20,7 @@ const Mint = () => {
           <p className="text-white mb-3 text-lg font-bold">Minting Rebates</p>
           <p className="text-white text-lg bolder font-bold">Discord Role &#x1F525;</p>
         </div>
-        <div className="text-center">
+        <div className="mt-8">
           <a href="https://opensea.io/assets/matic/0xea97f003c047cb8370cd1cc5701b7e6e002eec28/1"
             className="align-middle text-lg rounded-lg select-none font-sans font-bold text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none py-4 px-9 shadow-md shadow-gray-900/10 hover:shadow-lg hover:shadow-gray-900/20 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none join-waitlist__btn"
             type="submit"
