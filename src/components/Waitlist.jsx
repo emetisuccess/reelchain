@@ -19,14 +19,14 @@ const Waitlist = () => {
 
     const data = { wallet_id: wallet_id.wallet_address };
 
-    axios.post(`reeladmin.reelchain.xyz/api/v1/waitlist`, data).then((res) => {
+    axios.post(`https://reeladmin.reelchain.xyz/api/v1/waitlist`, data).then((res) => {
       if (res.data.status == 200) {
         setTimeout(() => {
           setMsg(res.data.msg);
         }, 3000);
       }
     });
-
+    setWallet({ wallet_address: '' });
   };
 
   return (
