@@ -26,6 +26,7 @@ const Waitlist = () => {
         }, 3000);
       }
     });
+
   };
 
   return (

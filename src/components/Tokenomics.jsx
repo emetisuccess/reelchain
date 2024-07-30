@@ -8,25 +8,20 @@ import { FaAngleRight, FaAngleLeft } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 
-
-const colors = ['#006BD6', '#EC407A'];
 const series = [
   {
     data: [
       { id: 0, value: 15, label: "F&T" },
-      { id: 1, value: 5, label: "Advisors" },
+      { id: 1, value: 5, label: "AD" },
       { id: 2, value: 20, label: "DF" },
       { id: 3, value: 20, label: "M&P" },
       { id: 4, value: 30, label: "CR" },
-      { id: 5, value: 10, label: "Reserve" },
+      { id: 5, value: 10, label: "RS" },
     ],
+    type: 'pie',
+    arcLabel: 'label'
   },
 ]
-
-
-
-
-
 
 
 const Tokenomics = () => {
@@ -58,17 +53,18 @@ const Tokenomics = () => {
               <li className="text-white text-lg">DF : Development Fund- 20%</li>
               <li className="text-white text-lg">M&P : Marketing and Partnerships-20%</li>
               <li className="text-white text-lg">CR : Community Rewards-30%</li>
-              <li className="text-white text-lg">Advisors-5% (Vested over 2 years)</li>
-              <li className="text-white text-lg">Reserve-10%</li>
+              <li className="text-white text-lg">AD: Advisors-5% (Vested over 2 years)</li>
+              <li className="text-white text-lg">RS : Reserve-10%</li>
             </ul>
           </div>
           <div className="my-8">
             <Stack>
               <PieChart
                 series={series}
-                slotProps={{ legend: { hidden: false } }}
-                colors={colors}
-                width={385}
+                slotProps={{
+                  legend: { hidden: true },
+                }}
+                width={400}
                 height={250}
               />
             </Stack>
@@ -109,8 +105,8 @@ const Tokenomics = () => {
           </Link>
         </div>
       </div>
-    </div >
+    </div>
   );
-};
+}
 
 export default Tokenomics;
